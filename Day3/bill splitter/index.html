@@ -8,16 +8,22 @@
     <script src="calculate.js"></script>
 </head>
 <body class="text-center">
-    <h2 class="p-3">Bill Splitter</h2>
-    <form>
-        <label for="" class="text-center p-3">Number of persons:
-            <input type="text" id="person">
-        </label>
-        <label for="">Bill Amount:
-            <input type="text" id="bill">
-    </form>
-    <button id="calculate">Calculate</button>
-    <button type="reset">reset</button>
-    <div id="result">Total</div>
+    <div class="row"><h2 class="p-3">Bill Splitter</h2></div>
+    <div class="row">
+        <form>
+            <label for="" class="text-center p-3">Number of persons:
+                <input type="text" id="person">
+            </label>
+            <label for=""class="text-center p-3" >Bill Amount:
+                <input type="text" id="bill">
+            </form>
+    </div>
+    <div class="row btn">
+        <button onclick="calculate()">Calculate</button>
+    </div>
+    <div class="row btn">
+        <button type="reset">reset</button>
+    </div> 
+    
 </body>
 </html>
